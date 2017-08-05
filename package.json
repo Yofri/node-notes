@@ -1,0 +1,16 @@
+{
+  "name": "notes-node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --inspect-brk app.js",
+    "debug": "nodemon --inspect-brk playground/debugging.js"
+  },
+  "dependencies": {
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
